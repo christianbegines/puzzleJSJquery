@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/main.css" rel="stylesheet" type="text/css"/>
+        
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 margin-bot-l">       
+                    <div id="div1" class="col-xs-2 tamaño"
+                       id-hueco-caja="1" 
+                       ondrop="onDropHuecoCaja(event)"
+                       ondragover="onDragOverHuecoCaja(event)"
+                       >
+                        <img id="img1" class="puzzle_img" src="assets/img/grid1.png" alt=""
+                             draggable="true" id-pieza="1"                          
+                             ondragstart="onDragStartPieza(event)"                                                          
+                             />
+                    </div>               
+                    <div id="div2" class="col-xs-2 tamaño"
+                        id-hueco-caja="2"
+                        ondrop="onDropHuecoCaja(event)" 
+                        ondragover="onDragOverHuecoCaja(event)">
+                        <img id="img2" class="puzzle_img" src="assets/img/grid2.png" alt=""
+                             draggable="true"  id-pieza="2"                            
+                             ondragstart="onDragStartPieza(event)"                                                          
+                             />
+                    </div>
+                    <div id="div3" class=" col-xs-2 tamaño"
+                        id-hueco-caja="3" 
+                        ondrop="onDropHuecoCaja(event)"
+                        ondragover="onDragOverHuecoCaja(event)"
+                        >
+                        <img id="img3" class="puzzle_img" src="assets/img/grid3.png" alt=""
+                             draggable="true"    id-pieza="3"                          
+                             ondragstart="onDragStartPieza(event)"
+                             /></div>
+                    <div id="div4" class="col-xs-2 tamaño"
+                         id-hueco-caja="4"
+                         ondrop="onDropHuecoCaja(event)"
+                         ondragover="onDragOverHuecoCaja(event)"
+                         >
+                        <img id="img4" class="puzzle_img" src="assets/img/grid4.png" alt=""
+                             draggable="true"   id-pieza="4"                          
+                             ondragstart="onDragStartPieza(event)"
+                             />
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="divSin1" class=" tablero-puzzle col-xs-4 col-xs-offset-2"
+                         id-hueco-tablero="1"
+                         ondrop="onDropHuecoTablero(event)"
+                         ondragover="onDragOverHuecoTablero(event)"
+                         
+                         >                       
+                    </div>                   
+                    <div  id="divSin2" class="tablero-puzzle col-xs-4"
+                        id-hueco-tablero="2"
+                        ondrop="onDropHuecoTablero(event)"
+                        ondragover="onDragOverHuecoTablero(event)"
+                        >
+                        
+                    </div>                
+                </div>
+                <div class="row">                    
+                    <div class="col-xs-2">
+                        <table border="1">
+                            <thead>
+                                <tr>
+                                    <th>Estados</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td id="0"></td>
+                                </tr>
+                                <tr>
+                                    <td id="1"></td>
+                                </tr>
+                                <tr>
+                                    <td id="2"></td>
+                                </tr>
+                                <tr>
+                                    <td id="3"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div id="divSin3" class=" tablero-puzzle col-xs-4"
+                        id-hueco-tablero="3"
+                        ondrop="onDropHuecoTablero(event)"
+                        ondragover="onDragOverHuecoTablero(event)"
+                        >
+                        
+                    </div>                   
+                    <div id="divSin4" class="tablero-puzzle col-xs-4"
+                        id-hueco-tablero="4"
+                        ondrop="onDropHuecoTablero(event)"
+                        ondragover="onDragOverHuecoTablero(event)"
+                        >
+                        
+                    </div>                
+                </div> 
+            </div>
+        </div>
+        <!-- Scripts -->            
+        <script src="vendor/jquery/js/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="assets/js/puzzle.js" type="text/javascript"></script>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+{
+    "elements": {},
+    "attributes": {
+        "id-pieza": {},
+        "num-pieza": {},
+        "id-hueco-caja": {},
+        "id-hueco-tablero": {},
+        "idpieza": {
+            "context": "img"
+        },
+        "numpieza": {},
+        "num-hueco": {}
+    }
+}
